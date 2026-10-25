@@ -1,0 +1,50 @@
+{
+  "load": {
+    "drop_height_m": 1.0,
+    "impact_speed_ms": 4.43,
+    "stop_distance_mm": 4.0,
+    "decel_g": 250.0,
+    "supported_mass_kg": 0.15,
+    "equiv_force_N": 368.0,
+    "pressure_MPa": 0.153
+  },
+  "material": {
+    "name": "PETG",
+    "E_MPa": 2100.0,
+    "nu": 0.38,
+    "working_yield_MPa": 40.0
+  },
+  "A": {
+    "name": "Iteration 1: flat 2.5 mm floor",
+    "floor_mm": 2.5,
+    "ribs": false,
+    "peak_vm_MPa": 55.3,
+    "peak_vm_excl_corner_MPa": 42.1,
+    "fos": 0.72,
+    "fos_excl_corner": 0.95,
+    "max_deflection_mm": 7.446,
+    "elements": 1050
+  },
+  "B": {
+    "name": "Iteration 2: 3.0 mm floor + 2 ribs (2 x 6 mm)",
+    "floor_mm": 3.0,
+    "ribs": true,
+    "peak_vm_MPa": 53.7,
+    "peak_vm_excl_corner_MPa": 29.5,
+    "fos": 0.75,
+    "fos_excl_corner": 1.36,
+    "max_deflection_mm": 4.647,
+    "elements": 1332
+  },
+  "C": {
+    "name": "Iteration 3: 4.5 mm floor + 2 ribs (final)",
+    "floor_mm": 4.5,
+    "ribs": true,
+    "peak_vm_MPa": 47.3,
+    "peak_vm_excl_corner_MPa": 14.1,
+    "fos": 0.85,
+    "fos_excl_corner": 2.84,
+    "max_deflection_mm": 1.902,
+    "elements": 1826
+  }
+}

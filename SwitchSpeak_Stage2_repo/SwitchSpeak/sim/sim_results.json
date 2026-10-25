@@ -1,0 +1,33 @@
+{
+  "static": {
+    "steps_mean": 6.645806060606059,
+    "steps_sd": 0.5189809466575551,
+    "seconds_mean": 9.968709090909089,
+    "churn_mean": 0.0,
+    "reduction_pct": 0.0
+  },
+  "adaptive": {
+    "steps_mean": 4.968757575757576,
+    "steps_sd": 0.17696153001080467,
+    "seconds_mean": 7.453136363636364,
+    "churn_mean": 0.5899454545454546,
+    "reduction_pct": 25.234688908384207
+  },
+  "adaptive_context": {
+    "steps_mean": 4.494290909090909,
+    "steps_sd": 0.08869338150541466,
+    "seconds_mean": 6.741436363636363,
+    "churn_mean": 0.6439212121212122,
+    "reduction_pct": 32.37402855115734
+  },
+  "params": {
+    "symbols": 12,
+    "step_s": 1.5,
+    "contexts": 4,
+    "context_block": 60,
+    "selections": 6000,
+    "warmup": 500,
+    "seeds": 30,
+    "decay": 0.995
+  }
+}
